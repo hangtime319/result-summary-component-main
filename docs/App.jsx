@@ -1,8 +1,13 @@
 import React from "react";
 import "./App.css";
+import ResultPage from "./ResultPage";
 
 const App = () => {
-  return <h1 className="text-3xl text-center font-bold text-red-800">Hello world!</h1>;
+  return (
+    <main className="">
+      <ResultPage />
+    </main>
+  );
 };
 
 export default App;

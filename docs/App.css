@@ -1,1 +1,49 @@
 @import "tailwindcss";
+
+:root {
+  --font-family-base: "Hanken Grotesk", sans-serif;
+  --color-light-red: hsl(0, 100%, 67%);
+  --color-orangey-yellow: hsl(39, 100%, 56%);
+  --color-green-teal: hsl(166, 100%, 37%);
+  --color-cobalt-blue: hsl(234, 85%, 45%);
+  --color-light-slate-blue: hsl(252, 100%, 67%);
+  --color-light-royal-blue: hsl(241, 81%, 54%);
+  --color-violet-blue: hsla(256, 72%, 46%, 1);
+  --color-persian-blue: hsla(241, 72%, 46%, 1);
+  --color-pale-blue: hsl(221, 100%, 96%);
+  --color-light-lavender: hsl(241, 100%, 89%);
+  --color-dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+body {
+  font-family: var(--font-family-base);
+  font-size: 18px;
+  background-color: var(--color-pale-blue);
+}
+
+.icon-reaction::before{
+  content: url('assets/images/icon-reaction.svg');
+  display: inline-block;
+  margin: 4px 6px auto 0;
+}
+
+.icon-memory::before{
+  content: url('assets/images/icon-memory.svg');
+  display: inline-block;
+  margin: 4px 6px auto 0;
+}
+
+.icon-verbal::before{
+  content: url('assets/images/icon-verbal.svg');
+  display: inline-block;
+  margin: 4px 6px auto 0;
+}
+
+.icon-visual::before{
+  content: url('assets/images/icon-visual.svg');
+  display: inline-block;
+  margin: 4px 6px auto 0;
+}
+
+.attribution { margin-top: 1rem; font-size: 0.6875rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
