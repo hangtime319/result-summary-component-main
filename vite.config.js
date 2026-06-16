@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/results-summary-component/",
+  base: "/result-summary-component-main/",
   plugins: [react(), tailwindcss()],
 });
