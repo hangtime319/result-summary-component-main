@@ -1,16 +1,55 @@
-# React + Vite
+# Results Summary Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![GitHub Pages](https://img.shields.io/badge/Pages-View-blue)](https://hangtime319.github.io/result-summary-component-main/)
 
-Currently, two official plugins are available:
+Uma implementação do desafio "Results Summary Component" do Frontend Mentor. Projeto de interface responsiva que exibe um resumo de resultados com um painel de pontuação e um botão de ação.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Demo (GitHub Pages):** https://hangtime319.github.io/result-summary-component-main/
 
-## React Compiler
+## Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- Tailwind CSS
+- gh-pages (deploy)
+- ESLint
 
-## Expanding the ESLint configuration
+## Como usar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Instalar dependências:
+
+```
+npm install
+```
+
+2. Rodar em desenvolvimento:
+
+```
+npm run dev
+```
+
+3. Gerar build de produção:
+
+```
+npm run build
+```
+
+4. Publicar no GitHub Pages (já configurado neste projeto):
+
+```
+npm run deploy
+```
+
+## Estrutura principal
+
+- `docs/` — código fonte do app
+- `dist/` — saída da build (publicada no gh-pages)
+
+## Observações
+
+- O arquivo `vite.config.js` define `base` para `/result-summary-component-main/` para que os ativos sejam carregados corretamente no GitHub Pages.
+- Se mudar o nome do repositório, atualize o `base` em `vite.config.js` antes de gerar a build.
+
+---
+
+Desenvolvido por Leonardo Amaral — desafio do Frontend Mentor.
